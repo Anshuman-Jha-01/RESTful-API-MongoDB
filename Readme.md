@@ -102,7 +102,7 @@ To run this project locally, follow these steps:
 /views         # EJS templates for rendering UI
 /public        # Static files (CSS, JS, images)
 index.js       # Main server file
-init.js  # Script to populate database with mock chat data
+init.js        # Script to populate database with mock chat data
 package.json   # Project metadata and dependencies
 ```
 
