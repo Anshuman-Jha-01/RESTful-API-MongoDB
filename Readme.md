@@ -85,7 +85,8 @@ To run this project locally, follow these steps:
 - Use `/chats/new` to create a new chat.
 - View individual chats by navigating to `/chats/:id`.
 - Edit chat messages via `/chats/:id/edit`.
-- Delete chat records through `/chats/:id`. You will be asked to confirm your choice before proceeding.
+- Delete chat records through `/chats/:id`. 
+  You will be asked to confirm your choice before proceeding.
 
 ### Routes
 
