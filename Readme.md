@@ -44,7 +44,7 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/RESTful-API-MongoDB.git
+   git clone https://github.com/Anshuman-Jha-01/RESTful-API-MongoDB.git
    ```
 
 2. **Navigate into the project directory:**
