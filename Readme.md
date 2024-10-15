@@ -44,12 +44,12 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/whatsapp-clone-chat-management-app.git
+   git clone https://github.com/your-username/RESTful-API-MongoDB.git
    ```
 
 2. **Navigate into the project directory:**
    ```bash
-   cd whatsapp-clone-chat-management-app
+   cd RESTful-API-MongoDB
    ```
 
 3. **Install dependencies:**
