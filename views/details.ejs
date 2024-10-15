@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat details</title>
+    <link rel="Stylesheet" href="/Style.css">
+</head>
+<body>
+    <h2>Here are the chat details you requested for:</h2>
+    <div class="chat">
+        <p style="color: rgb(219, 12, 12);"> <b>Chat ID:</b> <%= result._id %></p>
+        <p style="color: rgb(219, 12, 12);"><b>Chat creation date:</b> <%= result.created_at %></p>
+        <p class="from"><b>From:</b> <%= result.from %></p>
+        <p class="to"><b>To:</b> <%= result.to %></p>
+        <p class="message"><b>Message:</b> <%= result.message %></p>
+    </div>
+    <br> <br>
+    <form method = "get" action="http://localhost:3000/chats">
+        <button>View all chats</button>
+    </form>
+</body>
+</html>

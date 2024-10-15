@@ -1,0 +1,92 @@
+/* Main div */
+.chat {
+    background-color: aliceblue;
+    margin: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    box-shadow: lightblue 2px 2px 10px;
+}
+
+/* Date/time div in index.ejs */
+.date-time {
+    margin: 2px;
+    padding: 0px;
+}
+.date-time p {
+    line-height: 5px;
+    color:darkred;
+}
+
+/* Message box */
+.message {
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: lightskyblue 2px 2px 5px;
+}
+
+/* From and To text  */
+.from {
+    color: brown
+}
+.to {
+    color: rgb(218, 79, 32);
+}
+
+/* Create button */
+.Create {
+    border-radius: 5px;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 19px;
+    box-shadow: lightsalmon 2px 2px 5px;
+    cursor: pointer;
+    border: 2px solid rgb(250, 184, 114);
+    margin-left: 2px;
+}
+
+/* H1 and form display */
+h1 {
+    display: inline;
+    color: rgb(81, 103, 228);
+    margin-left: 20px;
+}
+form{
+    display: inline;
+}
+
+/* New chat and edit chat form */
+#newFrom,#newTo,#msg {
+    box-shadow: cadetblue 2px 2px 5px; 
+    border-radius: 7px; 
+    background-color: rgb(215, 247, 250);
+}
+.Add, .Edit {
+    border-radius: 5px;
+    background-color: rgba(0, 149, 255, 0.485);
+    cursor: pointer;
+    box-shadow: rgb(95, 134, 160) 2px 2px 5px;
+    border: 2px solid royalblue;
+}
+input,textarea {
+    padding: 3px;
+}
+button {
+    cursor: pointer;
+    background-color:bisque ;
+    border-radius: 5px;
+    box-shadow: rgb(255, 245, 196) 2px 2px 5px;
+    border: 2px solid rgb(209, 198, 185);
+    margin-left: 10px;
+}
+label {
+    font-weight: 600;
+}
+
+/* Chat Details */
+h2 {
+    color: rgb(81, 103, 228);
+    margin-left: 20px;
+}

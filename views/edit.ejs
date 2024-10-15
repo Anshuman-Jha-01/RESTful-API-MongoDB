@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Chat</title>
+    <link rel="Stylesheet" href="/Style.css">
+</head>
+<body>
+    <h2>Here is the chat you want to edit:</h2>
+    <form method = "post" action="http://localhost:3000/chats/<%= result._id %>?_method=PATCH">
+        <div class="chat">
+            <p style="color: rgb(219, 12, 12);"> <b>Chat ID:</b> <%= result._id %></p>
+            <p style="color: rgb(219, 12, 12);"><b>Chat creation date:</b> <%= result.created_at %></p>
+            <p class="from"><b>From:</b> <%= result.from %></p>
+            <p class="to"><b>To:</b> <%= result.to %></p>
+            <label for="msg" style="color: rgb(255, 145, 0);">Message:</label> <br>
+            <textarea name = "message" id = "msg"><%= result.message %></textarea>
+            <br> <br>
+            <button class = "Edit">Edit</button>
+        </div>
+    </form>
+    <br> <br>
+    <form method = "get" action="http://localhost:3000/chats">
+        <button>View all chats</button>
+    </form>
+</body>
+</html>
